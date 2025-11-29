@@ -1,0 +1,5 @@
+rootProject.name = 'bean-garden'
+
+include 'backend:bean-garden-core'
+include 'backend:bean-garden-api'
+
