@@ -1,4 +1,4 @@
-package com.beangarden.beangardenapi;
+package com.beangarden.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
