@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(#d8f3dc, #b7e4c7);
+    font-family: 'Pretendard', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 420px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.subtitle {
+    color: #3a5a40;
+    margin-bottom: 20px;
+}
+
+.plant-img {
+    width: 140px;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffffdd;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px #00000015;
+    margin-bottom: 20px;
+}
+
+.grow-btn {
+    margin-top: 12px;
+    background: #52b788;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grow-btn:hover {
+    background: #40916c;
+}
+
+.hidden {
+    display: none;
+}
+
+.result {
+    background: #ffffffdd;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px #00000015;
+}
+
+.status {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2d6a4f;
+    font-size: 18px;
+}
+
+/* input 자체는 숨김 */
+#fileInput {
+    display: none;
+}
+
+.file-btn {
+    background: #56c08f;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.file-btn:hover {
+    background: #52b788;
+}
+
+/* 파일 선택 텍스트 */
+#fileName {
+    margin-top: 10px;
+    color: #2d6a4f;
+    font-weight: 500;
+}
