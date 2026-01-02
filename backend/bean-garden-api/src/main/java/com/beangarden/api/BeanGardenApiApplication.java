@@ -9,5 +9,4 @@ public class BeanGardenApiApplication {
     public static void main(String[] args) {
         SpringApplication.run(BeanGardenApiApplication.class, args);
     }
-
 }
