@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bean Garden 🌱</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class="container">
+
+    <h1 class="title">🌱 Bean Garden</h1>
+    <p class="subtitle">Spring 프로젝트가 숲으로 자랍니다</p>
+
+    <img src="assets/sprout.png"
+         class="plant-img" alt="seed" />
+
+    <section class="card">
+        <h2>프로젝트를 심어주세요 🌿</h2>
+        <div class="file-upload">
+            <input type="file" id="fileInput" />
+            <button id="fileButton" class="file-btn">📁 씨앗 고르기</button>
+        </div>
+
+        <p id="fileName">아직 씨앗이 없어요</p>
+        <button id="startBtn" class="grow-btn">🌳 콩 심기 (분석 시작)</button>
+    </section>
+
+    <section id="result-section" class="result hidden">
+        <h2>🌼 자란 Bean 잎들 🌼</h2>
+        <ul id="beanList"></ul>
+        <p id="status" class="status">상태: 대기 중</p>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
